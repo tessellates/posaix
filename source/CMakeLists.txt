@@ -1,0 +1,5 @@
+add_subdirectory(application)
+add_subdirectory(engine)
+add_subdirectory(gui)
+add_subdirectory(model)
+add_subdirectory(utilities)

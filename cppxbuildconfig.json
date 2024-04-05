@@ -1,0 +1,18 @@
+{
+    "cmake": "cmake",
+    "currentConfig": "opt",
+    "builddir": "build",
+    "debugdir": "Debug",
+    "optdir": "Release",
+    "targets": [
+        {
+            "name": "posaix",
+            "path": ".",
+            "exe": "staging/main"
+
+        }
+    ],
+    "cmake_actions": [],
+    "default_cmake_variables": [],
+    "env": []
+}

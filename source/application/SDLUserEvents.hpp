@@ -1,0 +1,7 @@
+#pragma once
+
+#include <SDL.h>
+
+const Uint32 PX_RESOLUTIONCHANGE = SDL_USEREVENT + 0;
+const Uint32 PX_FULLSCREEN_TOGGLE = SDL_USEREVENT + 1;
+const Uint32 PX_DATA_CHANGE = SDL_USEREVENT + 2;
