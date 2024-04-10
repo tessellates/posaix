@@ -14,6 +14,8 @@ struct TextureRenderData
     SDL_Texture* active;
 
     UpdatableData<TranslationData> uData;
+
+    SDL_Surface* sceneSurface;
 };
 
 void updateTRD(TextureRenderData* renderData);
@@ -21,3 +23,4 @@ void initTRD(TextureRenderData* renderData);
 void loadTRD(TextureRenderData* renderData, SDL_Texture* loaded);
 void destroyTRD(TextureRenderData* renderData);
 void renderScene(TextureRenderData* renderData);
+void updateSurface(TextureRenderData* renderData);

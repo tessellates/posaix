@@ -9,6 +9,6 @@ target_sources(${PROJECT_NAME}
     PRIVATE
         ${CMAKE_CURRENT_SOURCE_DIR}/InteractiveDisplay.cpp
         ${CMAKE_CURRENT_SOURCE_DIR}/PXGUI.cpp
-        ${CMAKE_CURRENT_SOURCE_DIR}/TextureDisplay.cpp
+        ${CMAKE_CURRENT_SOURCE_DIR}/RotationDisplay.cpp
         ${CMAKE_CURRENT_SOURCE_DIR}/TranslationDisplay.cpp
 )

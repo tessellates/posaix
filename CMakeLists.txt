@@ -17,6 +17,9 @@ find_package(SDL2_ttf REQUIRED)
 find_package(SDL2_IMAGE REQUIRED)
 find_package(SDL2 REQUIRED)
 
+# GLM
+find_package(glm REQUIRED)
+
 # Create the library
 add_library(${PROJECT_NAME})
 
@@ -52,6 +55,7 @@ endif()
 
 # Link SDL to the library
 target_link_libraries(${PROJECT_NAME} PUBLIC SDL2::SDL2main SDL2::SDL2 SDL2_image::SDL2_image SDL2_ttf::SDL2_ttf)
+target_link_libraries(${PROJECT_NAME} PUBLIC glm::glm)
 
 # Enable imgui default math operator
 add_compile_definitions(IMGUI_DEFINE_MATH_OPERATORS)

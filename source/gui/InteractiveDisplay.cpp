@@ -8,6 +8,8 @@ void InteractiveDisplay::init() {
 void InteractiveDisplay::render() 
 {
     ImGui::SetNextWindowSize(size);
+    ImGui::SetNextWindowPos({25, 75}, ImGuiCond_FirstUseEver);
+
     ImGui::Begin("Interactive", nullptr, ImGuiWindowFlags_NoResize);
     
     if (ImGui::Button("Reset")) 
